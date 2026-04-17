@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+ 
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+  box-sizing: border-box;
+}
+/* Navbar Links */
+.navbar {
+  height: 10vh;
+  background-color: #1b1919;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:  0  1.5rem;
+}
+.nav-logo {
+  font-size: 2rem;
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.nav-items {
+  display: flex;
+  width: 80vw;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  margin-right: 2rem;
+}
+.nav-item {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+.nav-item a {
+  color: #fff;
+  font-size: 1.1rem;
+  margin-right: 2rem;
+  text-decoration: none;
+  padding: 6px 16px;
+  border-radius: 5px;
+}
+.nav-item a:hover {
+  background-color: rgb(0,212,212);
+}
+
+.btn {
+  background-color: rgb(0,212,212);
+  padding: 6px 16px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.1rem;
+  border: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+/* Services Submenu */
+.services-submenu {
+  list-style: none;
+  width: 8rem;
+  position: absolute;
+  top: 64px;
+}
+.services-submenu li {
+  background-color: rgb(0,212,212);
+  cursor: pointer;
+}
+a.submenu-item {
+  display: block;
+  padding: 1rem;
+  color: #fff;
+  border-radius: 0;
+  text-decoration: none;
+  font-size: 1.1rem;
+  height: 100%;
+  width: 100%;
+}
+.services-submenu li:hover .submenu-item{
+  background-color: rgb(0,125,125);
+}
+
+/* Products Submenu */
+.products-submenu {
+  list-style: none;
+  width: 8rem;
+  position: absolute;
+  top: 64px;
+}
+.products-submenu li {
+  background-color: rgb(0,212,212);
+  cursor: pointer;
+}
+a.submenu-item {
+  display: block;
+  padding: 1rem;
+  color: #fff;
+  border-radius: 0;
+  text-decoration: none;
+  font-size: 1.1rem;
+  height: 100%;
+  width: 100%;
+}
+.products-submenu li:hover .submenu-item{
+  background-color: rgb(0,125,125);
+}
+a.p-active {
+  background-color: rgb(0,212,212);
+}
+a.s-active {
+  background-color: rgb(0,212,212);
+}
+
+/* Pages */
+.home,
+.services,
+.products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
+  text-shadow: 4px 4px 4px #fff;
+}
+.home {
+  background-image: url('https://picsum.photos/1200/650');
+}
+.services {
+  background-image: url('https://picsum.photos/1300/700');
+}
+.products {
+  background-image: url('https://picsum.photos/1300/750');
+}

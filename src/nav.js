@@ -1,0 +1,80 @@
+
+export const navItems = [
+    {
+        id:1,
+        title:'Home',
+        path:'./',
+        cName:'nav-item',
+    },
+    {
+        id:2,
+        title:'Services',
+        path:'./services',
+        cName:'nav-item',
+    },
+    {
+        id:3,
+        title:'Products',
+        path:'./products',
+        cName:'nav-item',
+    },
+    {
+        id:4,
+        title:'Contact Us',
+        path:'./contactus',
+        cName:'nav-item',
+    },
+];
+
+export const productsDropdown = [
+    {
+        id:1,
+        title:'Marketing',
+        path:'./',
+        cName:'submenu-item',
+    },
+    {
+        id:2,
+        title:'Consulting',
+        path:'./',
+        cName:'submenu-item',
+    },
+    {
+        id:3,
+        title:'Design',
+        path:'./',
+        cName:'submenu-item',
+    },
+    {
+        id:4,
+        title:'Development',
+        path:'./',
+        cName:'submenu-item',
+    },
+]
+export const servicesDropdown = [
+    {
+        id:1,
+        title:'Marketing',
+        path:'./',
+        cName:'submenu-item',
+    },
+    {
+        id:2,
+        title:'Consulting',
+        path:'./',
+        cName:'submenu-item',
+    },
+    {
+        id:3,
+        title:'Design',
+        path:'./',
+        cName:'submenu-item',
+    },
+    {
+        id:4,
+        title:'Development',
+        path:'./',
+        cName:'submenu-item',
+    },
+]
